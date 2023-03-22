@@ -135,7 +135,7 @@ describe('Blog app', () => {
         });
       });
 
-      it('should sort blogs by number od likes', () => {
+      it('should sort blogs by number of likes', () => {
         cy.get('div>.blog')
           .eq(0)
           .should('contain', 'The title with the most likes');
